@@ -1,0 +1,155 @@
+
+@media (max-width:1156px){
+  .services__items{
+    display: block;
+}
+.services__item{
+    max-width: 80%;
+    margin: 30px auto;
+    min-height: 330px;
+}
+.form__inner{
+    background-image: none;
+}
+}
+
+@media (max-width: 900px){
+  .services__top{
+    display: block;
+}
+
+
+.services__title-box,.form__title-box,.news__title-box{
+  padding-left: 0;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.services__title-box:before,
+.form__title-box:before,
+.news__title-box:before{
+display: none;
+}
+
+.services__btn,.news__btn{
+text-align: center;
+}
+
+
+.form__box-inner{
+  display: block;
+}
+
+.form__box-left,.form__box-right{
+  max-width: 100%;
+}
+}
+
+@media (max-width:700px){
+
+  .services__item{
+    max-width: 100%;
+    min-height: 375px;
+    margin: 30px auto;
+}
+}
+
+@media screen and (min-width: 800px) {
+    .nav-center {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0rem;
+    }
+    .nav-header {
+      padding: 0;
+    }
+  
+    .nav-toggle {
+      display: none;
+    }
+  
+    .links {
+      height: auto;
+      display: flex;
+    }
+  
+    .links a:hover {
+      padding: 0;
+      background: transparent;
+    }
+    .social-icons {
+      display: flex;
+    }
+    .social-icons a {
+      margin: 0 0.5rem;
+      color: var(--clr-primary-5);
+      transition: var(--transition);
+    }
+    .social-icons a:hover {
+      color: var(--clr-primary-7);
+      
+    }
+  }
+
+  @media screen and (min-width:801px){
+   .links a:hover {
+    color: #333;
+  }  
+ 
+ 
+
+  .header_container{
+    display:flex;
+}
+  }  
+
+  @media screen and (max-width:700px){
+    .links{
+      display: block;
+    }
+.login_button{
+  display: none;
+}
+
+
+#login{
+  display: block;
+}
+  }
+
+  @media screen and (max-width:620px){
+    .header_container{
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+     
+    }
+    .modal-content{
+      width: 73%;
+      margin: 50% auto;
+    }
+
+    .login_button{
+      position: relative;
+
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .modal-content{
+      width: 73%;
+      margin: 65% auto;
+    }
+   
+  }
+
+
+  
+
+  
+
+
+

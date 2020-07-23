@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media_main.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <section id="headers">
+        <div class="container ">
+            <div class="header_container">
+                <div class="header_contacts">
+                    <a class="header_phone" href="tel:89772850461">+8(977)-285-04-61</a>
+                    <a class=" header_email" href="#">volovlikovevgeny@mail.ru</a>
+                </div>
+                <div class="login_button">
+                    <a href="./signin/signin.html">Авторизация</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Nav-bar">
+
+        <nav>
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <img src="./images/olo2.jpg" class="logo" alt="logo" />
+                    <a class="nav-toggle">
+                        <div class="toggle_container" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- links -->
+                <ul class="links">
+                    <li>
+                        <a href="index.html">домашняя страница</a>
+                    </li>
+                    <li>
+                        <a href="#about_us">Доставка</a>
+                    </li>
+                    <li>
+                        <a href="#Hockey">Визора</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Как добраться</a>
+                    </li>
+                    <li>
+                        <a id="myBtn">Консультация</a>
+                    </li>
+                    <li>
+                        <a href="./signin/signin.html" id="login">Авторизация</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+    <section id="Modal_Bar">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div>
+                    <span class="close">&times;</span>
+                </div>
+                <div>
+                    <form action="#">
+                        <div class="form_container">
+                            <input type="text" placeholder="Ваше имя:" name="uname" required>
+                            <input type="tel" placeholder="Номер телефона:" name="tel" required>
+                            <button class="next" type="submit">отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slider">
+        <div class="container">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/IMG_1623.JPG" alt="photo"></div>
+                    <div class="swiper-slide"><img src="./images/IMG_4882.JPG" alt="photo"></div>
+                    <div class="swiper-slide"><img src="./images/IMG_1624.JPG" alt="photo"></div>
+                    <div class="swiper-slide"><img src="./images/IMG_4890.JPG" alt="photo"></div>
+                    <div class="swiper-slide"><img src="./images/IMG_4894.JPG" alt="photo"></div>
+                    <div class="swiper-slide"><img src="./images/IMG_4973.JPG" alt="photo"></div>
+                    <div class="swiper-slide"><img src="./images/IMG_4974.JPG" alt="photo"></div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <section id="hockey_visor_cards">
+        <div class="container">
+            <div id="Hockey" class="services__top">
+                <div class="services__title-box">
+                    <div class="services__title">
+                        Our Hockey Visors
+                    </div>
+                    <div class="services__text">
+                        Новые хоккейные визора OLO от отечественного производителя.
+                        Покрытие anti-fog, которое не даёт стеклу запотеть.
+                        Покрытие против царапин anti-scratch.
+                        Суперпрочный, сделано из голландского поликарбоната LEXAN.
+                    </div>
+                    <div class="services__btn">
+                        <a href="#">
+                            Визора
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="services__items">
+                <div class="services__item">
+                    <img src="./images/IMG_100.JPG" alt="visor">
+                    <div class="services__item-title">
+                        Visor 1
+                    </div>
+                    <div class="services__item-text">
+                        Визор широкий- высота посередине 8,5см.<br>
+                        Anti-fog (не даёт визору потеть).<br>
+                        Anti-scratch (против царапин).<br>
+                        Высокопрочный голландский материал LEXAN.
+                        Толщина 3мм.<br>
+                        Стандартный размер для шлема.<br>
+                        Подходит для всех типов шлемов (Bauer, Easton, CCM и др.).
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">See more...</a>
+                        <a href="#" class="default-btn">
+                            buy now
+                        </a>
+                    </div>
+                </div>
+                <div class="services__item qq">
+                    <img src="./images/IMG_102.JPG" alt="visor2">
+                    <div class="services__item-title">
+                        Visor 2
+                    </div>
+                    <div class="services__item-text">
+                        Визор узкий- высота посередине 7см.<br>
+                        Anti-fog (не даёт визору потеть).<br>
+                        Anti-scratch (против царапин).<br>
+                        Высокопрочный голландский материал LEXAN.
+                        Толщина 3мм.<br>
+                        Стандартный размер для шлема.<br>
+                        Подходит для всех типов шлемов (Bauer, Easton, CCM и др.).<br>
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">See more...</a>
+                        <a href="#" class="default-btn">
+                            buy now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about_us">
+        <div class="container">
+            <div class="about_inner">
+                <div class="about__title" id="company">Доставка</div>
+                <div class="about__text">Самовывоз м.Речной вокзал- бесплатно (время заранее уточняйте по телефону или
+                    пишите в сообщения)
+                    Почтой в любой регион по 100% предоплате и оплате самой доставки
+                    По Москве в пределах МКАДа- 300р, предоплата 300р (которая не возвращается при отмене заказа за 6
+                    часов и меньше до момента доставки), 300р за доставку не возвращается в случае отказа клиента от
+                    покупки при доставке и получении товара
+                </div>
+            </div>
+            <a href="#" class="next">
+                Заказать
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__map">
+                        <iframe height="250px" width="650px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.124391996489!2d30.364922015731644!3d50.457408279476354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1555013165886!5m2!1sru!2sua"
+                            frameborder="0" style="border:0" allowfullscreen="" id="geolocation"></iframe>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quo?
+                        </div>
+                        <div class="footer__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit facilis ab adipisci velit
+                            natus!
+                        </div>
+                        <ul class="footer__list">
+                            <li><a class="footer__phone" href="tel:8-977-285-04-61">8-977-285-04-61</a></li>
+                            <li><a href="#" class="footer_email">volovlikovevgeny@mail.ru</a></li>
+                            <li>
+                                <p class="footer__adress">Москва, ул.Ляпидевского, 4</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <div class="container">
+                <div class="copy__text">
+                    © 2020 Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="prev_next_btn">
+        <a href="../Our_reviews/index.html" class="prev">prev</a>
+        <a class="next">next</a>
+    </div>
+
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src=" ./js/script.js"></script>
+</body>
+
+</html>
+
+<!-- src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.4113042060426!2d37.49750231593461!3d55.85552998058092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b537f69c2ae45f%3A0x707690f5ddca5a37!2sUlitsa%20Lyapidevskogo%2C%204%2C%20Moskva%2C%20125581!5e0!3m2!1sen!2sru!4v1595492410004!5m2!1sen!2sru" -->
