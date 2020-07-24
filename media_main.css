@@ -11,6 +11,24 @@
 .form__inner{
     background-image: none;
 }
+
+.footer__info{
+  max-width: 465px;
+  margin-bottom: 25px;
+}
+
+}
+
+@media (max-width: 1050px){
+  .footer__inner{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+  }
+  .footer__map{
+      max-width: 100%;
+  }
 }
 
 @media (max-width: 900px){
@@ -145,6 +163,10 @@ text-align: center;
     }
    
   }
+
+
+  
+
 
 
   
