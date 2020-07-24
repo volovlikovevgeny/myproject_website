@@ -208,6 +208,15 @@ input[type=text], input[type=tel] {
   box-sizing: border-box;
 }
 
+#myBtn_3{
+  cursor: pointer;
+  color: #222;
+}
+
+#myBtn_3:hover{
+  color: #fff;
+}
+
 .menu-toggle1,.menu-toggle2,.menu-toggle3 {
     width: 35px;
     height: 5px;
@@ -251,6 +260,7 @@ img {
 nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+
 }
 .nav-header {
   display: flex;
@@ -298,7 +308,7 @@ nav {
   transition: var(--transition);
 }
 .show-links {
-  height: 15rem;
+  height: 13rem;
 }
 
 #login{
@@ -525,13 +535,13 @@ transition: all 0.3s linear ;
   right: 0;
 }
 
-#more{
+#more,#more2{
   display: none;
-  transition: all 0.3s linear;
 }
 
-#more2{
-  display: none; 
+
+#visor_btn, #visor_btn2{
+  color: #325d67;
 }
 
 
@@ -614,14 +624,6 @@ z-index: -100;
 }
 
 
-/* .container_particlejs{
-  max-width: 1141px;
-  margin: 0 auto;
-  padding: 0 15px;
-  position: relative;
-  z-index: 100;
-} */
-
 
 /* Footer */
 
@@ -652,14 +654,14 @@ z-index: -100;
 }
 .footer__info{
   max-width: 360px;
-  margin-top: 104px;
-  margin-left: 56px;
+  margin-top: 50px;
+  margin-left: 36px;
 }
 .footer__list{
-  padding-top: 10px;
+  padding-top: 0px;
 }
 .footer__list li{
-  margin-top: 10px;
+  margin-top: 37px;
 }
 .footer__list a{
   font-size: 16px;
@@ -685,6 +687,19 @@ z-index: -100;
 } 
  .footer__phone,.footer_email{
     font-size: 16px;
+}
+
+
+.footer__copy{
+  background-color: #3d3a3a;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 8px 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 
 

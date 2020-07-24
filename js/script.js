@@ -15,6 +15,9 @@ let modal = document.getElementById('myModal');
 let btn = document.getElementById('myBtn');
 let span = document.getElementsByClassName('close')[0];
 let btn2 = document.getElementById('myBtn_2');
+let btn3 = document.getElementById('myBtn_3');
+
+
 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -23,6 +26,11 @@ btn.onclick = function () {
 btn2.onclick = function () {
     modal.style.display = "block";
 }
+
+btn3.onclick = function () {
+    modal.style.display = "block";
+}
+
 
 span.onclick = function () {
     modal.style.display = "none";
@@ -77,35 +85,49 @@ function readMore() {
     let more = document.getElementById('more');
     let visor_btn = document.getElementById('visor_btn');
 
+    let dots2 = document.getElementById('dots2');
+    let more2 = document.getElementById('more2');
+    let visor_btn2 = document.getElementById('visor_btn2');
+
     if (dots.style.display == "none") {
         dots.style.display = 'inline';
-        visor_btn.innerHTML = 'Подробнее'
+        dots2.style.display = 'inline';
+
+        visor_btn.innerHTML = 'Подробнее';
+        visor_btn2.innerHTML = 'Подробнее';
+
         more.style.display = 'none';
+        more2.style.display = 'none';
 
     }
     else {
         dots.style.display = 'none';
-        visor_btn.innerHTML = 'Скрыть'
+        dots2.style.display = 'none';
+
+        visor_btn.innerHTML = 'Скрыть';
+        visor_btn2.innerHTML = 'Скрыть';
+
         more.style.display = 'inline';
+        more2.style.display = 'inline';
     }
 }
 
-function readMore2() {
-    let dots = document.getElementById('dots2');
-    let more = document.getElementById('more2');
-    let visor_btn = document.getElementById('visor_btn2');
+// function readMore2() {
+//     let dots = document.getElementById('dots2');
+//     let more = document.getElementById('more2');
+//     let visor_btn = document.getElementsByClassName('visor_btn2');
 
-    if (dots.style.display == "none") {
-        dots.style.display = 'inline';
-        visor_btn.innerHTML = 'Подробнее'
-        more.style.display = 'none';
-    }
-    else {
-        dots.style.display = 'none';
-        visor_btn.innerHTML = 'Скрыть'
-        more.style.display = 'inline';
-    }
-}
+//     if (dots.style.display == "none") {
+//         dots.style.display = 'inline';
+//         visor_btn.innerHTML = 'Подробнее'
+//         more.style.display = 'none';
+//     }
+//     else {
+//         dots.style.display = 'none';
+//         visor_btn.innerHTML = 'Скрыть'
+//         more.style.display = 'inline';
+//     }
+// }
 
 
 
