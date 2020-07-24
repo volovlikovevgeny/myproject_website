@@ -9,11 +9,18 @@ function myFunction(x) {
     x.classList.toggle("change");
 }
 
+
+
 let modal = document.getElementById('myModal');
 let btn = document.getElementById('myBtn');
 let span = document.getElementsByClassName('close')[0];
+let btn2 = document.getElementById('myBtn_2');
 
 btn.onclick = function () {
+    modal.style.display = "block";
+}
+
+btn2.onclick = function () {
     modal.style.display = "block";
 }
 
@@ -62,6 +69,50 @@ $(document).ready(function () {
         return false;
     });
 });
+
+
+
+function readMore() {
+    let dots = document.getElementById('dots');
+    let more = document.getElementById('more');
+    let visor_btn = document.getElementById('visor_btn');
+
+    if (dots.style.display == "none") {
+        dots.style.display = 'inline';
+        visor_btn.innerHTML = 'Подробнее'
+        more.style.display = 'none';
+
+    }
+    else {
+        dots.style.display = 'none';
+        visor_btn.innerHTML = 'Скрыть'
+        more.style.display = 'inline';
+    }
+}
+
+function readMore2() {
+    let dots = document.getElementById('dots2');
+    let more = document.getElementById('more2');
+    let visor_btn = document.getElementById('visor_btn2');
+
+    if (dots.style.display == "none") {
+        dots.style.display = 'inline';
+        visor_btn.innerHTML = 'Подробнее'
+        more.style.display = 'none';
+    }
+    else {
+        dots.style.display = 'none';
+        visor_btn.innerHTML = 'Скрыть'
+        more.style.display = 'inline';
+    }
+}
+
+
+
+
+
+
+
 
 
 
