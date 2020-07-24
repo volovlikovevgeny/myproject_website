@@ -63,8 +63,13 @@ var swiper = new Swiper('.swiper-container', {
 let btn_next = document.getElementsByClassName('swiper-button-next')[0];
 let btn_prev = document.getElementsByClassName('swiper-button-prev')[0];
 
-
 let close_btn = document.getElementsByClassName('close')[0];
+
+// let swiper_container = document.getElementsByClassName('swiper-container');
+// swiper_container.addEventListener('click', function () {
+//     style.
+// })
+
 
 
 $(document).ready(function () {
@@ -112,22 +117,6 @@ function readMore() {
     }
 }
 
-// function readMore2() {
-//     let dots = document.getElementById('dots2');
-//     let more = document.getElementById('more2');
-//     let visor_btn = document.getElementsByClassName('visor_btn2');
-
-//     if (dots.style.display == "none") {
-//         dots.style.display = 'inline';
-//         visor_btn.innerHTML = 'Подробнее'
-//         more.style.display = 'none';
-//     }
-//     else {
-//         dots.style.display = 'none';
-//         visor_btn.innerHTML = 'Скрыть'
-//         more.style.display = 'inline';
-//     }
-// }
 
 
 
