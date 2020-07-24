@@ -54,21 +54,27 @@ window.addEventListener('keypress', cancelFreeConForm)
 //SLIDER
 
 var swiper = new Swiper('.swiper-container', {
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
 });
 
-let btn_next = document.getElementsByClassName('swiper-button-next')[0];
-let btn_prev = document.getElementsByClassName('swiper-button-prev')[0];
+var swiper2 = new Swiper('.swiper-container-2', {
 
-let close_btn = document.getElementsByClassName('close')[0];
 
-// let swiper_container = document.getElementsByClassName('swiper-container');
-// swiper_container.addEventListener('click', function () {
-//     style.
-// })
+    slidesPerView: 3,
+    spaceBetween: 20,
+    freeMode: true,
+    pagination: {
+
+        clickable: true,
+    },
+});
 
 
 
