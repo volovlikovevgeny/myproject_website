@@ -17,19 +17,15 @@ let span = document.getElementsByClassName('close')[0];
 let btn2 = document.getElementById('myBtn_2');
 let btn3 = document.getElementById('myBtn_3');
 
-
-
-btn.onclick = function () {
+let clicking = function () {
     modal.style.display = "block";
 }
 
-btn2.onclick = function () {
-    modal.style.display = "block";
-}
+btn.addEventListener('click', clicking)
 
-btn3.onclick = function () {
-    modal.style.display = "block";
-}
+btn2.addEventListener('click', clicking)
+
+btn3.addEventListener('click', clicking)
 
 
 span.onclick = function () {
@@ -65,18 +61,13 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 var swiper2 = new Swiper('.swiper-container-2', {
-
-
     slidesPerView: 3,
     spaceBetween: 20,
     freeMode: true,
     pagination: {
-
         clickable: true,
     },
 });
-
-
 
 $(document).ready(function () {
     $('a[href^="#"]').click(function () {
@@ -88,8 +79,6 @@ $(document).ready(function () {
         return false;
     });
 });
-
-
 
 function readMore() {
     let dots = document.getElementById('dots');
@@ -122,7 +111,6 @@ function readMore() {
         more2.style.display = 'inline';
     }
 }
-
 
 
 

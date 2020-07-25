@@ -308,7 +308,7 @@ nav {
   transition: var(--transition);
 }
 .show-links {
-  height: 13rem;
+  height: 15rem;
 }
 
 #login{
@@ -608,7 +608,7 @@ z-index: -100;
   font-size: 24px;
   font-weight: 500;
   line-height: 24px;
-  padding-top: 37px;
+  padding-top: 0px;
   padding-bottom: 34px;
 }
 
@@ -628,7 +628,7 @@ z-index: -100;
 /* Footer */
 
 .footer__content{
-  padding: 20px 0px 30px;
+  padding: 20px 0px 20px;
 }
 .footer__inner{
   display: flex;
