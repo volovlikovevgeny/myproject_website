@@ -9,8 +9,6 @@ function myFunction(x) {
     x.classList.toggle("change");
 }
 
-
-
 let modal = document.getElementById('myModal');
 let btn = document.getElementById('myBtn');
 let span = document.getElementsByClassName('close')[0];
@@ -111,6 +109,8 @@ function readMore() {
         more2.style.display = 'inline';
     }
 }
+
+
 
 
 

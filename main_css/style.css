@@ -73,6 +73,37 @@ body {
   justify-content: space-between;
 }
 
+.s_icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.social-icons > li{
+padding-left: 10px;
+}
+.social-icons > li > a{
+  color: #325d67;
+}
+
+.header_phone:before{
+  content: "\e942";
+  font-family: 'icomoon';
+}
+
+.icon-whatsapp,.icon-vk,.icon-instagram{
+font-size: 1.5rem;
+}
+
+
 .header_phone,
 .header_email{
   color: #325d67;
@@ -88,6 +119,7 @@ body {
     padding-left: 20px;
     padding-right: 30px;
     font-size: 16px;
+
 }
 .header_email{
     padding-left: 24px;
@@ -299,9 +331,7 @@ nav {
   color: #fff;
   padding-left: 1.5rem;
 }
-.social-icons {
-  display: none;
-}
+
 .links {
   height:0;
  overflow: hidden;
@@ -651,6 +681,7 @@ z-index: -100;
 }
 .footer__text{
   margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 .footer__info{
   max-width: 360px;
@@ -693,12 +724,13 @@ z-index: -100;
   background-color: #3d3a3a;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-size: 12px;
-    line-height: 24px;
-    padding: 8px 0;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 8px 0;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100px;
 }
 
 
