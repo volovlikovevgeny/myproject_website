@@ -78,6 +78,7 @@ $(document).ready(function () {
     });
 });
 
+
 function readMore() {
     let dots = document.getElementById('dots');
     let more = document.getElementById('more');

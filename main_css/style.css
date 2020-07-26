@@ -1,4 +1,6 @@
 
+
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 :root {
@@ -103,7 +105,6 @@ padding-left: 10px;
 font-size: 1.5rem;
 }
 
-
 .header_phone,
 .header_email{
   color: #325d67;
@@ -119,7 +120,7 @@ font-size: 1.5rem;
     padding-left: 20px;
     padding-right: 30px;
     font-size: 16px;
-
+clear: both;
 }
 .header_email{
     padding-left: 24px;

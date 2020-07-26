@@ -73,8 +73,6 @@ text-align: center;
 }
 
 @media screen and (min-width: 800px) {
-  
-  
     .nav-center {
       max-width: 1170px;
       margin: 0 auto;
@@ -120,10 +118,6 @@ text-align: center;
    .links a:hover {
     color: #333;
   }  
-
-
- 
-
   .header_container{
     display:flex;
 }
@@ -136,8 +130,6 @@ text-align: center;
 .login_button{
   display: none;
 }
-
-
 #login{
   display: block;
 }
@@ -167,6 +159,23 @@ text-align: center;
       margin: 65% auto;
     }
    
+  }
+
+
+  @media screen and (max-width: 420px){ 
+   .header_phone,
+   .header_email{
+    color: #325d67;
+    letter-spacing: 0.25px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.header_phone:before{
+  display: none;
+}
   }
 
 
