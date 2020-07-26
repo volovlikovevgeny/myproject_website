@@ -149,8 +149,17 @@ text-align: center;
 
     .login_button{
       position: relative;
-
     }
+
+    .s_icons{
+      margin-bottom: 8px;
+    }
+
+
+
+
+
+
   }
 
   @media screen and (max-width: 375px){
@@ -176,6 +185,11 @@ text-align: center;
 .header_phone:before{
   display: none;
 }
+
+.header_email:before{
+  display: none;
+}
+
   }
 
 

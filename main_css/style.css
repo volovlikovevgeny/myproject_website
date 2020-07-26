@@ -97,9 +97,26 @@ padding-left: 10px;
 }
 
 .header_phone:before{
+  margin-right: 5px;
   content: "\e942";
   font-family: 'icomoon';
 }
+
+.login_button:before{
+  margin-right: 5px;
+  content: "\ea13";
+  font-family: 'icomoon';
+}
+
+
+.header_email:before{
+  margin-right: 5px;
+  content: "\e945";
+  font-family: 'icomoon';
+}
+
+
+
 
 .icon-whatsapp,.icon-vk,.icon-instagram{
 font-size: 1.5rem;
@@ -154,6 +171,8 @@ clear: both;
   display: inline-block;
   cursor: pointer;
 }
+
+
 
 .login_button:hover{
   text-decoration: underline;
@@ -358,7 +377,7 @@ nav {
     height: 5px;
     background-color: #333;
     margin: 6px 0;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .change .bar1 {
