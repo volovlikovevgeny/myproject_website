@@ -112,13 +112,15 @@ function readMore() {
 }
 
 
+// #myBtn
 
+function main() {
+    setTimeout(() => {
+        document.getElementById('myBtn').click()
+    }, 5000);
+}
 
-
-
-
-
-
+window.addEventListener("load", main);
 
 
 
