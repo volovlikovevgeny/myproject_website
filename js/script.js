@@ -19,11 +19,11 @@ let clicking = function () {
     modal.style.display = "block";
 }
 
-btn.addEventListener('click', clicking)
+// btn.addEventListener('click', clicking)
 
 btn2.addEventListener('click', clicking)
 
-btn3.addEventListener('click', clicking)
+// btn3.addEventListener('click', clicking)
 
 
 span.onclick = function () {
@@ -114,15 +114,16 @@ function readMore() {
 
 // #myBtn
 
-function main() {
-    setTimeout(() => {
-        document.getElementById('myBtn').click()
-    }, 5000);
-}
+// function main() {
+//     setTimeout(() => {
+//         document.getElementById('myBtn').click()
+//     }, 5000);
+// }
 
-window.addEventListener("load", main);
+// window.addEventListener("load", main);
 
 
+let users = [];
 
 
 
