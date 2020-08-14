@@ -140,7 +140,7 @@ font-size: 1.5rem;
 clear: both;
 }
 .header_email{
-    padding-left: 24px;
+    /* padding-left: 24px; */
      font-size: 16px; 
 } 
 
@@ -358,7 +358,7 @@ nav {
   transition: var(--transition);
 }
 .show-links {
-  height: 15rem;
+  height: 11rem;
 }
 
 #login{
