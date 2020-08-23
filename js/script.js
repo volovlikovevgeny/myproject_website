@@ -19,11 +19,8 @@ let clicking = function () {
     modal.style.display = "block";
 }
 
-// btn.addEventListener('click', clicking)
 
 btn2.addEventListener('click', clicking)
-
-// btn3.addEventListener('click', clicking)
 
 
 span.onclick = function () {
@@ -48,10 +45,6 @@ window.addEventListener('keypress', cancelFreeConForm)
 //SLIDER
 
 var swiper = new Swiper('.swiper-container', {
-    autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,
-    },
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -111,19 +104,6 @@ function readMore() {
     }
 }
 
-
-// #myBtn
-
-// function main() {
-//     setTimeout(() => {
-//         document.getElementById('myBtn').click()
-//     }, 5000);
-// }
-
-// window.addEventListener("load", main);
-
-
-let users = [];
 
 
 
